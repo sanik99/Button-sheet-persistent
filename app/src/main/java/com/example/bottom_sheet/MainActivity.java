@@ -31,7 +31,9 @@ public class MainActivity extends AppCompatActivity {
         //visible part of button sheet default
         bottomSheetBehavior.setPeekHeight(320);
 
-
+        //making the bottom peek layout unhidable
+        bottomSheetBehavior.setHideable(false);
+        
         showSheet.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
